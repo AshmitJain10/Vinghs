@@ -38,8 +38,13 @@ export default function Navbar() {
           {/* Brand Logo */}
           <a
             href="#hero"
-            className="group flex items-center space-x-2 text-2xl sm:text-3xl font-black tracking-wider uppercase text-white focus:outline-none"
+            className="group flex items-center space-x-2.5 sm:space-x-3 text-2xl sm:text-3xl font-black tracking-wider uppercase text-white focus:outline-none"
           >
+            <img
+              src="/assets/vinghs-logo.png"
+              alt="VINGHS Logo"
+              className="w-10 h-10 sm:w-12 sm:h-12 object-contain drop-shadow-[0_0_12px_rgba(215,30,40,0.35)] group-hover:scale-105 group-hover:drop-shadow-[0_0_18px_rgba(215,30,40,0.6)] transition-all duration-300"
+            />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-[#C9CDD3]">
               VINGHS
             </span>
